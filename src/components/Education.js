@@ -9,7 +9,7 @@ function Education() {
       <div className="row">
         <div className="col-md-4">
           <div>
-            <h3 className="font-bold">2021-continue</h3>
+            <h3 className="font-bold">2020-2023</h3>
             <hr />
             <p>Bachelor's in Computer application</p>
             <p>University Institute of Engineering and Technology (CSJM) </p>

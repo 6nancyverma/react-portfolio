@@ -3,7 +3,6 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import ExperienceProjects from "./pages/Experience_Projects";
 import EducationContact from "./pages/Education_contact";
-import Contact from "./pages/Contact";
 import "./stylesheets/home.css";
 import "./stylesheets/Header-Footer.css";
 import "./stylesheets/Courosel.css";
@@ -30,7 +29,6 @@ function App() {
             exact
             element={<EducationContact />}
           />
-          <Route path="/Contact" exact element={<Contact />} />
         </Routes>
       </BrowserRouter>
       <Footer />
