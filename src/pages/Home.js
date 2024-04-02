@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../components/Header";
 import Courosel from "../components/Courosel";
 
-
 function Home() {
   return (
     <div>
@@ -12,17 +11,21 @@ function Home() {
         style={{ backgroundImage: `url('./intro3.svg')` }}
       >
         <div>
-          <h1 className="font-bold " data-aos="fade-up">Nancy Verma</h1>
+          <h1 className="font-bold " data-aos="fade-up">
+            Nancy Verma
+          </h1>
           <div className="intro-content ">
             <p> Hustler who loves to do Frontend development</p>
-            
-            <a className="primary-button  font-bold " href="#courosel">Get started</a>
+
+            <a className="primary-button  font-bold " href="#courosel">
+              Get started
+            </a>
           </div>
         </div>
       </div>
-    
+
       <Courosel />
-    
+
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
@@ -73,49 +76,61 @@ function Home() {
               <h3 className="font-bold">Front end</h3>
               <hr />
               <p>HTML/CSS</p>
-              <p>javascript</p>
-              <p>react</p>
+              <p>Javascript</p>
+              <p>React</p>
+              <p>Nextjs</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div >
+            <div>
               <h3 className="font-bold">UI/Styling</h3>
               <hr />
               <p>Bootstrap</p>
+              <p>Ant Design (Antd)</p>
+              <p>Material UI</p>
+              <p>Shadcn UI</p>
             </div>
           </div>
           <div className="col-md-4">
-            <div >
+            <div>
               <h3 className="font-bold">Back end/DB</h3>
               <hr />
-              <p>nodejs</p>
+              <p>Nodejs</p>
+              <p>Nest.js (Basics)</p>
               <p>SQL</p>
+              <p>MongoDB</p>
             </div>
           </div>
         </div>
       </div>
-<div>
-  <h1 className="font-bold text-center" >Who Am i</h1>
-<div
-      
-      className="whoIsNancy flex-with-center" data-aos="flip-left"
-      style={{ backgroundImage: `url('./blobbg.svg')`}}>
       <div>
-      <h4 className="font-bold text-start-h">Hello, </h4>
-      <h4 className="font-bold text-start-h">Namastey</h4>
-        <hr />
-        <p><pre className="text-start">{JSON.stringify(
-            {
-            Name:'Nancy Verma',
-            From:"India",
-            DOB:'28/05/2003',
-            Gender:'Female'
-            }
-          , null, 2)}</pre></p>
+        <h1 className="font-bold text-center">Who Am i</h1>
+        <div
+          className="whoIsNancy flex-with-center"
+          data-aos="flip-left"
+          style={{ backgroundImage: `url('./blobbg.svg')` }}
+        >
+          <div>
+            <h4 className="font-bold text-start-h">Hello, </h4>
+            <h4 className="font-bold text-start-h">Namastey</h4>
+            <hr />
+            <p>
+              <pre className="text-start">
+                {JSON.stringify(
+                  {
+                    Name: "Nancy Verma",
+                    From: "India",
+                    DOB: "28/05/2003",
+                    Gender: "Female",
+                  },
+                  null,
+                  2
+                )}
+              </pre>
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-</div>
-      
     </div>
   );
 }

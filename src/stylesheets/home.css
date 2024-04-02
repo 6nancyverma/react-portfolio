@@ -1,84 +1,78 @@
-.introduction{
-    height: 100vh;
-    width: 100%;
-    background-position: 100% 100%;
-    background-size: cover;
- 
+.introduction {
+  height: 100vh;
+  width: 100%;
+  background-position: 100% 100%;
+  background-size: cover;
 }
-.intro-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.intro-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.introduction div h1{
-    font-size: 80px;
- 
-    color: rgba(255, 255, 255, 0.692);
+.introduction div h1 {
+  font-size: 80px;
+
+  color: rgba(255, 255, 255, 0.692);
 }
-.introduction div h1:hover{
-    color: white;
-    cursor: default;
-    text-shadow: 0px 0px 10px #fff;
+.introduction div h1:hover {
+  color: white;
+  cursor: default;
+  text-shadow: 0px 0px 10px #fff;
 }
-.introduction div p{
-    color: white;
-    font-size:25px
+.introduction div p {
+  color: white;
+  font-size: 25px;
 }
-.primary-button{
-    background-color: white;
-    border-radius: 20px;
-    border: none;
-    height: 45px;   
-    padding: 10px;
-    color: black;
-    text-decoration: none;
+.primary-button {
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  height: 45px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
 }
-.div-stack{
-    color: black;
-    transition: all 0.5s;
+.div-stack {
+  color: black;
+  transition: all 0.5s;
 }
-.div-stack:hover{
-color: white;
-background-color:#001220 ;
-transform: scale(1.02);
+.div-stack:hover {
+  color: white;
+  background-color: #001220;
+  transform: scale(1.02);
 }
-.whoIsNancy{
-    height: 80vh;
-    background-size: 100% 100%;
-    color: #ebecf0;
-   
+.whoIsNancy {
+  height: 80vh;
+  background-size: 100% 100%;
+  color: #ebecf0;
 }
 
-pre{
-    font-size: 18px;
-
+pre {
+  font-size: 18px;
 }
-@media (max-width:750px){
-    .introduction div h1{
-        font-size:60px;
-        box-shadow: none;
-       
-    }
-    .introduction div p{
-    
-        font-size:20px
-    }
-    .primary-button{
-        width:auto;
-        padding: 5px 15px;
-    }
-    .whoIsNancy{ 
-        background-size: 180% 100%;
-        background-position: center;
-        height: 60vh;
-        /* font-size: 10px; */
-    }
-    .text-start-h{
- font-size: 20px;
- margin-top: 10px;
-    }
-    .text-start{
-        font-size: 15px;
-    }
+@media (max-width: 750px) {
+  .introduction div h1 {
+    font-size: 60px;
+    box-shadow: none;
+  }
+  .introduction div p {
+    font-size: 20px;
+  }
+  .primary-button {
+    width: auto;
+    padding: 5px 15px;
+  }
+  .whoIsNancy {
+    background-size: 180% 100%;
+    background-position: center;
+    height: 60vh;
+  }
+  .text-start-h {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .text-start {
+    font-size: 15px;
+  }
 }
