@@ -22,7 +22,7 @@ const ProjectsData = [
   },
   {
     title: "realtime chatapp",
-    image: "./chat.jpg",
+    image: "./chatApp.jpg",
     description:
       "A real-time chat application is a software tool that enables users to communicate with each other instantly over the internet. and  real-time chat application developed using html/css, javascript, nodejs,socket.io",
     link: "#",
@@ -37,7 +37,7 @@ const ProjectsData = [
     title: "Air canvas",
     image: "./airCanvas.png",
     description:
-      "Air Canvas is a web-based application or feature that allows users to create digital artwork using gestures or movements in the air, typically captured by a camera or motion sensor. i used opencv,mediapipe to create this application.",
+      "Air Canvas allows users to create digital artwork using gestures or movements in the air, typically captured by a camera or motion sensor. i used opencv,mediapipe to create this application.",
     link: "#",
   },
 ];

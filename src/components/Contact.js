@@ -8,10 +8,8 @@ function Contact() {
     message: "",
   });
 
-  // Define state for submission status
   const [submissionStatus, setSubmissionStatus] = useState("");
 
-  // Handle input changes
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -19,11 +17,8 @@ function Contact() {
     });
   };
 
-  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Submit form data to Formspree
     fetch("https://formspree.io/f/xdoqwblw", {
       method: "POST",
       headers: {
@@ -33,16 +28,13 @@ function Contact() {
     })
       .then((response) => {
         if (response.ok) {
-          // Clear form fields after successful submission
           setFormData({
             name: "",
             email: "",
             message: "",
           });
-          // Set submission status to success
           setSubmissionStatus("Form submitted successfully!");
         } else {
-          // Set submission status to error
           setSubmissionStatus("Form submission failed. Please try again.");
         }
       })
@@ -91,7 +83,6 @@ function Contact() {
             </button>
           </form>
 
-          {/* Display submission status message */}
           {submissionStatus && (
             <p className="submission-status-message my-3">{submissionStatus}</p>
           )}
