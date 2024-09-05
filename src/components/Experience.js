@@ -7,6 +7,16 @@ function Experience() {
       <h2 className="font-bold">My Work Experience</h2>
       <img src="./developer.svg" alt="" height="200" width="200" />
       <hr />
+      <h3>Frontend Developer Intern at Scizers Iot pvt.ltd.</h3>
+      <p>Duration: Working..</p>
+      <p>Responsibilities: </p>
+      <p>
+        Developed and maintained web applications using Next.js and React.js.
+      </p>
+      <p>
+        Developed and maintained web applications using Gatsby.
+      </p>
+     
       <h3>Frontend Developer at Spotlyt</h3>
       <p>Duration: 4 months</p>
       <p>Responsibilities: </p>
